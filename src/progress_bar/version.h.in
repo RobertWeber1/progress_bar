@@ -1,0 +1,15 @@
+#pragma once
+
+namespace progress_bar
+{
+
+
+struct Version
+{
+	static constexpr char project_name[] = "@PROJECT_NAME@";
+	static constexpr char git_tag[] = "@GIT_TAG@";
+	static constexpr char commit_hash[] = "@COMMIT_HASH@";
+};
+
+
+} //namespace progress_bar
